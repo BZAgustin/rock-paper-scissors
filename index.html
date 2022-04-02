@@ -4,13 +4,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Rock Paper Scissors</title>
   
 </head>
 <body>
+    <div class="wrapper">
+        <header>
+            <h1>Rock Paper Scissors</h1>
+        </header>
     
+        <div class="content">
+            <h2>Make your choice:</h2>
+            <div class="card-container" id="playerChoice">
+                <div class="card" id="pRock">Rock</div>
+                <div class="card" id="pPaper">Paper</div>
+                <div class="card" id="pScissors">Scissors</div>
+            </div>
+                
+            <h2>Computer's choice:</h2>
+            <div class="card-container" id="computerChoice">
+                <div class="card" id="cRock">Rock</div>
+                <div class="card" id="cPaper">Paper</div>
+                <div class="card" id="cScissors">Scissors</div>
+            </div>
     
-    
+            <div class="notification">
+                <h2>Waiting for game to begin...</h2>
+            </div>
+        </div>
+        
+        <footer>
+            <h1 id="score">0 - 0</h1>
+        </footer>
+    </div>  
 </body>
     <script src="script.js"></script>
 </html>
