@@ -84,6 +84,7 @@ function playRound(e) {
         }
     }
 
+    // Check if player or bot have reached 5 wins yet
     if(myScore === 5) {
        notif.textContent = "Player is the final winner!";
        myScore = 0;
@@ -98,10 +99,6 @@ function playRound(e) {
 
     refreshItems();
 }
-
-// function checkWinner(myObj, botObj, winner) {
-//     console.log(`${winner} wins. `);
-// }
 
 function highlightChoices(e, botChoice) {
     if(e.target.id === 'pRock') {
