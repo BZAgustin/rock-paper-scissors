@@ -111,8 +111,6 @@ function highlightChoices(e, botChoice) {
         pScissors.style.backgroundColor = "#ffcc6e";
     }
 
-    // a bit of delay for the bot choice
-   setTimeout(() => {
     if(botChoice === 'rock') {
         cRock.style.border = "3px solid #fd6017";
         cRock.style.backgroundColor = "#ffcc6e";
@@ -123,7 +121,6 @@ function highlightChoices(e, botChoice) {
         cScissors.style.border = "3px solid #fd6017";
         cScissors.style.backgroundColor = "#ffcc6e";
     }
-   }, 200);
 }
 
 function refreshItems() {

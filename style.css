@@ -1,20 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto+Condensed:wght@300&display=swap');
 
+@media only screen and (max-width: 670px) {
+
+    header h1 {
+        font-size: 24px;
+    }
+}
+
+h1 {
+    font-size: 2rem;
+}
+
 body {
-    background-color: rgb(201, 80, 0);
+    background: rgb(122,53,22);
+    background: radial-gradient(circle, rgba(122,53,22,1) 6%, rgba(255,84,24,1) 100%);
     padding: 24px 128px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .wrapper {
     padding: 24px;
-    background-color: rgb(247, 247, 247);
+    background: rgb(255,255,255);
+    background: linear-gradient(138deg, rgba(255,255,255,1) 0%, rgba(209,221,255,1) 100%);
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100%;
     font-family: 'Poppins', 'Roboto Condensed', sans-serif;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 4px 4px 7px black;
 }
 
 html {
@@ -22,7 +38,7 @@ html {
 }
 
 header {
-    background-color: #ff8410;
+    background-color: #f86300;
     padding: 18px;
     border-radius: 10px;
     box-shadow: 1px 1px 5px rgb(182, 103, 38);
@@ -34,7 +50,6 @@ header {
     height: 60vh;
     flex-direction: column;
     justify-content: center;
-    gap: 12px;
 }
 
 .card-container {
@@ -62,7 +77,7 @@ header {
 }
 
 .notification {
-    padding-top: 48px;
+    padding-top: 30%;
     color: rgb(73, 73, 73);
     text-align: center;
     font-weight: bold;
