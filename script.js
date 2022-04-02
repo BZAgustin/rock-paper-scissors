@@ -22,7 +22,6 @@ pRock.addEventListener('click', (e) => {
 
 pPaper.addEventListener('click', (e) => {
     playRound(e);
-
 });
 
 pScissors.addEventListener('click', (e) => {

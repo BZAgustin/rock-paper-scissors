@@ -30,8 +30,11 @@ header {
 }
 
 .content {
-    padding-top: 64px;
-    flex: 1 0 auto;
+    display: flex;
+    height: 60vh;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
 }
 
 .card-container {
@@ -59,7 +62,7 @@ header {
 }
 
 .notification {
-    padding-top: 64px;
+    padding-top: 48px;
     color: rgb(73, 73, 73);
     text-align: center;
     font-weight: bold;
